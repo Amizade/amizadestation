@@ -31,7 +31,7 @@ var/round_start_time = 0
 
 /datum/controller/gameticker/proc/pregame()
 
-	login_music = pickweight(list('sound/ambience/title2.ogg' = 49, 'sound/ambience/title1.ogg' = 49, 'sound/ambience/clown.ogg' = 2)) // choose title music!
+	login_music = pickweight(list('sound/ambience/gentemenandladies.ogg' = 25, 'sound/ambience/title2.ogg' = 25, 'sound/ambience/title1.ogg' = 25, 'sound/ambience/clown.ogg' = 25)) // choose title music!
 	if(events.holiday == "April Fool's Day")
 		login_music = 'sound/ambience/clown.ogg'
 	for(var/client/C in clients)
@@ -42,7 +42,7 @@ var/round_start_time = 0
 			pregame_timeleft = config.lobby_countdown
 		else
 			ERROR("configuration was null when retrieving the lobby_countdown value.")
-			pregame_timeleft = 120
+			pregame_timeleft = 200
 		world << "<B><FONT color='blue'>Welcome to the pre-game lobby!</FONT></B>"
 		world << "Please, setup your character and select ready. Game will start in [pregame_timeleft] seconds"
 		while(current_state == GAME_STATE_PREGAME)

@@ -7,11 +7,8 @@
 # NOTE: if the rank-name cannot be found in admin_ranks.txt, they will not be adminned! ~Carn #
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
-morphi = Host
-gmaker2 =  Game Master
-austeree = Game Admin
-anao22 = Game Admin
-spacerex = Game Admin
-severr = Game Admin
-elefantinho = Coder
-haligue = Moderator
+icehaunt = Game Master
+pumphbolt = Game Master
+AlwaysL = Game Master
+Morphi = Coder
+LadyApollo =  = Game Master
